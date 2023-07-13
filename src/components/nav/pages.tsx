@@ -6,9 +6,9 @@ import logo from '../../../public/images/logo.svg'
 
 export default function Nav() {
   return (
-    <div>
+    <div className='flex flex-row'>
         <Image src={logo} alt='logo'/>
-        <ul>
+        <ul className='flex flex-row'>
             <li>
                 <Link href='/'>Features</Link>
             </li>

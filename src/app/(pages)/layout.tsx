@@ -1,4 +1,5 @@
 import Nav from '@/components/nav/pages'
+import Footer from '@/components/footer/pages'
 import '../globals.css'
 import { Inter } from 'next/font/google'
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Nav/>
         {children}
+        <Footer/>
         </body>
     </html>
   )
